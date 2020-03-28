@@ -1,0 +1,9 @@
+{
+    "width": "99.9%",
+    "height": "94vh",
+    "headerLink": "https://github.com/Fairbanks-io/markdown-editor",
+    "toolbarTheme": "default",
+    "editorTheme": "pastel-on-dark",
+    "previewTheme": "default",
+    "markdown": "# Edit some Markdown!\n\n* A list\n\nSome **bold** and _italic_ text\n\n> A quote...\n\n`sample code`\n\nCheckout the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet) for more"
+}
