@@ -41,7 +41,7 @@ RUN /microscanner $MICROSCANNER_TOKEN --continue-on-failure
 
 # Build ENV
 FROM source as build
-RUN npm run build
+RUN npm run build > "/dev/null" 2>&1
 
 # Production ENV
 FROM jonfairbanks/expresshttp
