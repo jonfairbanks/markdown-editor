@@ -1,6 +1,7 @@
 # Base
 FROM node:12-slim as base
 ENV NODE_ENV=production
+# RUN apt-get install whatever
 RUN apt-get autoremove -y; apt-get autoclean; rm -rf /var/lib/{apt,dpkg,cache,log}/
 # apt-get is unavailable after this point
 EXPOSE 3000
