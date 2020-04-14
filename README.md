@@ -18,5 +18,5 @@ To launch the container:
 `docker run --name md-editor -d -p 8888:8888 jonfairbanks/markdown-editor`
 
 To attach to a running container:
-`docker exec -it markdown-editor /bin/ash`
+`docker exec -it markdown-editor /bin/bash`
 
