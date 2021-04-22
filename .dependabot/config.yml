@@ -8,5 +8,5 @@ update_configs:
       - "jonfairbanks"
     automerged_updates:
       - match:
-          update_type: "security"
+          update_type: "security:patch"
     version_requirement_updates: "increase_versions"
