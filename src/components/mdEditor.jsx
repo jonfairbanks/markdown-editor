@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Editor from 'react-editor-md';
 
 import config from '../config/config.json'
 
-export class mdEditor extends Component {
+export class mdEditor extends React.Component {
   render() {
     return (
       <Editor config={
