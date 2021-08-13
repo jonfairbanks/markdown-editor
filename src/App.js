@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import Editor from './components/mdEditor'
 
 import config from './config/config'
@@ -19,7 +19,7 @@ function App() {
       </header>
       <Editor />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
