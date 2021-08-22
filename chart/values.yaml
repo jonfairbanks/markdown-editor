@@ -7,8 +7,6 @@ replicaCount: 1
 image:
   repository: jonfairbanks/markdown-editor
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: 'latest'
 
 imagePullSecrets: []
 nameOverride: ''
