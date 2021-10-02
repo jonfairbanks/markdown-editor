@@ -14,7 +14,7 @@
 This application is also available on [Dockerhub](https://hub.docker.com/r/jonfairbanks/markdown-editor).
 
 To launch the container:
-`docker run --name md-editor -d -p 8888:8888 jonfairbanks/markdown-editor`
+`docker run --name md-editor -d -p 8888:8080 jonfairbanks/markdown-editor`
 
 To attach to a running container:
 `docker exec -it markdown-editor /bin/bash`
